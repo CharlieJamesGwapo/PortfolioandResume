@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+build/
+
+.env.*.local
+
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+next-env.d.ts
+*.tsbuildinfo
+config.bat

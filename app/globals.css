@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: #fafaf9;
+  color: #0f172a;
+}
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  .page-break { page-break-after: always; }
+}
