@@ -8,7 +8,6 @@ build/
 
 *.log
 .DS_Store
-.vscode/
 .idea/
 
 next-env.d.ts
