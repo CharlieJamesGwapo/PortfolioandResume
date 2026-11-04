@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.95.1",
-    "next": "^15.5.4",
+    "next": "^15.5.29",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
